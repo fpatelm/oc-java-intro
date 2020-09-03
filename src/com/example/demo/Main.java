@@ -1,9 +1,15 @@
 package com.example.demo;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 	// write your code here
-    System.out.println("Hello Poeple!");
+        System.out.println("What's your name");
+        Scanner scan = new Scanner(System.in);
+        String name =scan.nextLine();
+        System.out.println(name);
+
     // Write a code to make a user enter a string on the terminal and bounce back to the terminal using:
     // System.out.println("Hello Poeple!");
 
